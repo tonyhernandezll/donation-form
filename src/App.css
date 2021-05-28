@@ -1,3 +1,18 @@
+.form-child {
+  width: 500px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+.form-child input {
+  margin: 10px;
+  padding: 0px;
+}
+
+.form-child button {
+  background-color: #2167e9;
+}
+
 .App {
   text-align: center;
 }
@@ -35,9 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-.form-child {
-  width: 500px;
-  margin: 0px auto;
-  box-sizing: border-box;
 }

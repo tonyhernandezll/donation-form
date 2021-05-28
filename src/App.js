@@ -20,7 +20,7 @@ export default function App() {
 //  }
 
   return (
-    
+  
     <div className="App">
       <h1>The Good foundation</h1>
       <h2>You can donate now and help the cause!</h2>

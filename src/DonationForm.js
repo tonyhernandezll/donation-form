@@ -23,17 +23,18 @@ export default function DonationForm() {
   return (
     
     <div>
-    
-    
-    <div className="form-child">
-      <div> Donation ${amount}</div>
-      <p>join the {donors} other donors who have already supported the Project!</p>
-      <ProgressBar now={amount} max={5000}/>
-      <input type="number" value={value} onChange={handleChange}/>
-      <button onClick={handleClick}>Give Now</button>
+      <div className="form-child">
+        <ProgressBar now={amount} max={5000}/>
+        <div> Donation ${amount}</div>
+        <h2>Only four days left to fund this project</h2>
+        <p>join the {donors} other donors who have already supported the Project!</p>
+        <input type="number" value={value} onChange={handleChange}/>
+        <button onClick={handleClick}>Give Now</button>
       </div>
     </div>
     
    
   );
 }
+    
+    
