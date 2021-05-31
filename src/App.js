@@ -20,10 +20,9 @@ export default function App() {
 //  }
 
   return (
-  
+  <div className="form-wrapper">
     <div className="App">
-      <h1>The Good foundation</h1>
-      <h2>You can donate now and help the cause!</h2>
+      
       {/* <div class="form-wrapper">
       <div>progress bar{amount}</div>
       <ProgressBar now={amount} max={5000}/>
@@ -32,6 +31,8 @@ export default function App() {
       </div> */}
       <DonationForm />
     </div>
+
+  </div>
    
   );
 }

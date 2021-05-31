@@ -1,7 +1,57 @@
-.form-child {
-  width: 500px;
-  margin: 0px auto;
+* {
   box-sizing: border-box;
+  font-size: 13px;
+}
+
+.form-child {
+  width: 400px;
+  margin: 150px auto;
+  padding: 250px auto;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+.form-child p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.form-child h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.pop-message {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.pop-over {
+  position: absolute;
+  top: -60px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  background: #444;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.pop-over::after {
+  content: "";
+  position: absolute;
+  border-top: 5px solid #444;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 4px;
+}
+.ProgressBar:hover .pop-over {
+  display: block;
 }
 
 .form-child input {
